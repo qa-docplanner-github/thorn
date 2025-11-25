@@ -1,0 +1,29 @@
+{
+  "name": "spa-pdf-crawler",
+  "version": "1.0.0",
+  "description": "Crawl SPA pages and generate PDFs while preserving tree structure",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "node crawler.js",
+    "install-deps": "npm install",
+    "crawl": "node crawler.js",
+    "crawl:md": "node crawler_markdown.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.10.1",
+    "turndown": "^7.1.2",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "puppeteer",
+    "pdf",
+    "crawler",
+    "spa",
+    "scraping"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
